@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="54f0fbfd01e34c1499f708d7e436331e" Name="Diagram1">
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Cinsiyet" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Doktorlar" Width="1.5" PointX="11.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Hasta" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.HastaGecmisi" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.HastaneBilgi" Width="1.5" PointX="3.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Ilaclar" Width="1.5" PointX="11.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Izinler" Width="1.5" PointX="8.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.KanGrubu" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Meslek" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Personel" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Poliklinik" Width="1.5" PointX="9" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.Randevu" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.RandevuDetay" Width="1.5" PointX="10.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HastaneVeriTabaniModel.ReceteDetay" Width="1.5" PointX="13.5" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Hasta__Cinsiyet__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Personel__Cinsiy__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Doktorlar__Perso__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Doktorlar__Polik__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Randevu__DoktorI__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Hasta__HastaGecm__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Hasta__KanGrubuI__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Randevu__HastaID__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Personel__Hastan__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Poliklini__Hasta__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__ReceteDet__Barko__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Izinler__Persone__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Personel__KanGru__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__Personel__Meslek__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__RandevuDe__Rande__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="HastaneVeriTabaniModel.FK__ReceteDet__Rande__5BE2A6F2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
